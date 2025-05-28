@@ -1,0 +1,231 @@
+ @media (max-width: 767px) {
+
+    .container {
+        padding: 0 15px;
+        max-width: 100%;
+    }
+    /* header start */
+    .header_main {
+        align-items: flex-start;
+        padding: 20px;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+        display: none; /* hidden by default */
+        width: 100%;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .add-listing {
+        display: none;
+    }
+    /* header end */
+
+    /* hero start */
+     .hero {
+        margin-top: 180px;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hero .dollar {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .hero .month {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .hero button {
+        font-size: 20px;
+        padding: 16px 30px;
+    }
+
+     /* hero end */ 
+
+     /* card start */
+    .cities_card {
+        padding: 80px 15px;
+    }
+
+    .card_text h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .card_text p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .card-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 256px;
+        height: 300px;
+        padding: 16px;
+    }
+     /* card end */
+     
+     /* icon section start */
+     .icons {
+        padding-bottom: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .icon_text h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .icon_text p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .icon_card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 30px;
+    }
+
+    .cards {
+        text-align: center;
+    }
+
+    .icon_img {
+        font-size: 48px;
+    }
+
+    .cards h3 {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 20px;
+    }
+
+    .cards p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 10px;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+     /* icon section end */
+
+     /*  */
+      .create_account {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+        height: auto;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .account_text {
+        width: 100%;
+        height: auto;
+    }
+
+    .account_text h2 {
+        padding-top: 0;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .account_text p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .sign_btn {
+        width: 100%;
+        max-width: 250px;
+        height: 48px;
+        padding: 0;
+    }
+
+    .sign_btn a {
+        font-size: 14px;
+        line-height: 48px;
+        display: block;
+        width: 100%;
+    }
+    /*  */
+    /*  */
+     .view_properties {
+        height: auto;
+        margin-top: 100px;
+        padding: 60px 20px;
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .properties_text h2 {
+        font-size: 28px;
+        line-height: 38px;
+        width: 100%;
+    }
+
+    .properties_text p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 15px;
+    }
+
+    .view_btn {
+        width: 100%;
+        max-width: 200px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 48px;
+        margin-top: 25px;
+    }
+    /*  */
+}

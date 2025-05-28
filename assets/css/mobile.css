@@ -154,7 +154,7 @@
 
      /* icon section end */
 
-     /*  */
+     /*  create account section start */
       .create_account {
         flex-direction: column;
         align-items: center;
@@ -195,8 +195,8 @@
         display: block;
         width: 100%;
     }
-    /*  */
-    /*  */
+    /* create account section end */
+    /*view properties section start  */
      .view_properties {
         height: auto;
         margin-top: 100px;
@@ -227,5 +227,5 @@
         line-height: 48px;
         margin-top: 25px;
     }
-    /*  */
+    /*  view properties section end  */
 }

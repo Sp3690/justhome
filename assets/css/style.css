@@ -353,6 +353,7 @@ nav ul li a {
 
 .real_estate {
     padding: 60px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .appreciation {
@@ -392,13 +393,15 @@ nav ul li a {
 .realestate_text .box {
     width: 50%;
 }
-.realestate_text h2{
+
+.realestate_text h2 {
     font-weight: 500;
     font-size: 40px;
     line-height: 72px;
 }
-.real_estate_text button{
-     border: 1px solid rgba(231, 200, 115, 1);
+
+.real_estate_text button {
+    border: 1px solid rgba(231, 200, 115, 1);
     background: rgba(231, 200, 115, 1);
     color: rgba(26, 26, 26, 1);
     padding: 12px 30px;
@@ -410,7 +413,114 @@ nav ul li a {
     margin-top: 20px;
 }
 
-
-
-
 /* Appreciation section end */
+
+/* customer review section start */
+.customer_review {
+    background: rgba(26, 26, 26, 1);
+    height: 594px;
+    color: #f5f5f5;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.customer_review_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer_review_left {
+    padding-top: 227px;
+}
+
+.customer_review_left h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    width: 428.56px;
+}
+
+.customer_review_text {
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.customer_text h4 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33.8px;
+}
+
+.customer_text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37.5px;
+}
+
+.customer_review_right {
+    padding-top: 165px;
+}
+
+.customer_review_image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote {
+    margin-left: 195px;
+    font-size: 45px;
+    color: rgba(231, 200, 115, 1);
+}
+
+.customer_text_review p {
+    margin-top: 30px;
+    width: 546px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 36.1px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.left {
+    border: 1px solid white;
+    padding: 13.5px 23.5px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.right {
+    border: 1px solid white;
+    padding: 13.5px 23.5px;
+    border-radius: 40px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/* customer review section end */
+
+/* brand logos section start */
+
+.brand_logos {
+    height: 345.3px;
+    background: rgba(26, 26, 26, 1);
+    color: rgba(255, 255, 255, 1);
+    padding-top: 86px;
+}
+
+.brand_logos p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    text-align: center;
+}
+.brand_logo_img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* brand logos section end */

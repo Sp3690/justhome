@@ -12,14 +12,14 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 /* header end  */
 header {
-    background-image: url('/justhome/assets/images/1e4093a46480b71a5402f5e331d9bdb75cc82793.jpg');
+    background-image: url('/assets/images/1e4093a46480b71a5402f5e331d9bdb75cc82793.jpg');
     height: 860px;
     background-size: cover;
     width: 100%;
@@ -176,23 +176,23 @@ nav ul li a {
 }
 
 .newyork {
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/justhome/assets/images/h36.jpg.png);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h36.jpg.png);
 }
 
 .chicago {
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/justhome/assets/images/h37.jpg.png);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h37.jpg.png);
 }
 
 .losangeles {
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/justhome/assets/images/h38.jpg.png);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h38.jpg.png);
 }
 
 .miami {
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/justhome/assets/images/h39.jpg.png);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h39.jpg.png);
 }
 
 .florida {
-    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/justhome/assets/images/h310.jpg.png);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url(/assets/images/h310.jpg.png);
 }
 
 /* card section end  */
@@ -300,7 +300,7 @@ nav ul li a {
 /* View properties section start */
 
 .view_properties {
-    background-image: url(/justhome/assets/images/60ce1ce2d0b32b58eb6b4d9aa832e29ceb60cef1.jpg);
+    background-image: url(/assets/images/60ce1ce2d0b32b58eb6b4d9aa832e29ceb60cef1.jpg);
     height: 750.78px;
     margin-top: 165px;
     text-align: center;
@@ -516,7 +516,8 @@ nav ul li a {
     line-height: 32.3px;
     text-align: center;
 }
-.brand_logo_img{
+
+.brand_logo_img {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -524,3 +525,79 @@ nav ul li a {
 }
 
 /* brand logos section end */
+
+/* rent property card section start */
+
+.rent_articles {
+    padding: 60px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.article_text h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.article_text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.rent_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.news_card {
+    width: 328px;
+    height: 387.98px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.news_card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card_content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.card_content small {
+    font-size: 15px;
+    color: #999;
+    display: block;
+    line-height: 28.5px;
+    font-weight: 400;
+}
+
+.card_content h3 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25.84px;
+}
+
+.card_content a {
+    margin-top: 15px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* rent property card section end */

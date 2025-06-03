@@ -601,3 +601,102 @@ nav ul li a {
 }
 
 /* rent property card section end */
+
+/* app download section start */
+
+.app_main {
+    background: rgba(31, 75, 67, 1);
+    height: 600px;
+    border-radius: 16px;
+}
+
+.app_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_content {
+    padding-left: 86px;
+}
+
+.app_content button {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 36px;
+    padding: 1px 25px;
+}
+
+.app_content button a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.app_content h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.app_content p {
+    width: 450px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.dwonloadapp_btn {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.app_store_btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #103932;
+    border: 1px solid #dfe3e8;
+    font-family: sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.app_store_btn i {
+    font-size: 24px;
+}
+
+.app_store_btn .text {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(31, 75, 67, 0.32); 
+    padding-left: 16px;
+}
+
+.app_store_btn small {
+    font-size: 13px;
+    color: #103932;
+    line-height: 15.6px;
+}
+
+.app_store_btn span {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19.2px;
+    color: #103932;
+}
+
+/* app download section end  */

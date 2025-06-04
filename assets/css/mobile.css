@@ -433,39 +433,110 @@
 
      /* app downlaod section start */
 
-    .app_main {
-        padding-block: 0 50px;
-        height: auto;
-    }
+     .app_main {
+         padding-block: 0 50px;
+         height: auto;
+     }
 
-    .app_section {
-        flex-direction: column-reverse;
-        gap: 30px;
-    }
+     .app_section {
+         flex-direction: column-reverse;
+         gap: 30px;
+     }
 
-    .app_content {
-        text-align: center;
-        padding-left: 0;
-    }
+     .app_content {
+         text-align: center;
+         padding-left: 0;
+     }
 
-    .app_content p {
-        width: 100%;
-        text-align: center;
-        padding-inline: 15px;
-    }
+     .app_content p {
+         width: 100%;
+         text-align: center;
+         padding-inline: 15px;
+     }
 
-    .dwonloadapp_btn{
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
+     .dwonloadapp_btn {
+         flex-direction: column;
+         align-items: center;
+         gap: 30px;
+     }
 
-    .download_img img {
-        width: 100%;
-    }
+     .download_img img {
+         width: 100%;
+         border-radius: 10px;
+         overflow: hidden;
+     }
 
-    .app_store_btn {
-        width: auto;
-    }
+     .app_store_btn {
+         width: auto;
+     }
+
      /* app download section end */
-}
+
+     /* weekly feed section end */
+     .weekly_feed {
+         padding: 60px 20px;
+     }
+
+     .weeklyfeed_content {
+         gap: 30px;
+         text-align: center;
+     }
+
+     .weeklyfeed_content h2 {
+         font-size: 28px;
+         line-height: 36px;
+     }
+
+     .weeklyfeed_content p {
+         font-size: 14px;
+         line-height: 24px;
+         padding: 0 10px;
+     }
+
+     .mailbox {
+         flex-direction: column;
+         padding: 10px;
+         border-radius: 20px;
+         width: 100%;
+     }
+
+     .mailbox input {
+         width: 100%;
+         font-size: 14px;
+         margin-bottom: 10px;
+     }
+
+     .mailbox button {
+         width: 100%;
+         background-color: rgba(231, 200, 115, 1);
+         border-radius: 40px;
+         color: #1f4b43;
+     }
+
+     /* weekly feed section end */
+
+     /* footer start */
+
+     .footer {
+         height: auto;
+         padding: 20px 10px;
+         text-align: center;
+     }
+
+     .footer_main {
+         flex-direction: column;
+         gap: 15px;
+     }
+
+     .footer_content {
+         font-size: 14px;
+         line-height: 24px;
+     }
+
+     .footer_icons {
+         gap: 20px;
+         flex-wrap: wrap;
+     }
+
+     /* footer end */
+ }

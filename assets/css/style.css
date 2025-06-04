@@ -707,3 +707,100 @@ nav ul li a {
 }
 
 /* app download section end  */
+
+/* weekly feed section start */
+
+.weekly_feed {
+    padding: 100px 0;
+}
+
+.weeklyfeed_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.weeklyfeed_content .plan {
+    font-size: 24px;
+    background: rgba(231, 200, 115, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 17.29px;
+    color: rgba(31, 75, 67, 1);
+    cursor: pointer;
+}
+
+.weeklyfeed_content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.weeklyfeed_content p{
+    font-size: 15px;
+    line-height: 28.5px;
+    font-weight: 400;
+
+}
+.mailbox{
+    border: 1px solid rgba(235, 235, 235, 1);
+    background: rgba(255, 255, 255, 0.08);
+    padding: 8px 8px 8px 31px;
+    border-radius: 60px;
+}
+
+.mailbox input {
+    border: none;
+    background: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    width: 413px;
+}
+
+.mailbox button{
+    border: none;
+    background: none;
+    padding: 6px 27px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28.5px;
+    text-align: center;
+}
+
+/* weekly feed section end */
+
+.footer{
+    background: rgba(249, 249, 249, 1);
+    height: 117px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer_content {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28.5px;
+    color: rgba(26, 26, 26, 1);
+}
+
+
+
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
